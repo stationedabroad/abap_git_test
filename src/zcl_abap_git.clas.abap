@@ -14,7 +14,7 @@ ENDCLASS.
 CLASS zcl_abap_git IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
-    out->write( |ABAP github repos!| ).
+    out->write( |ABAP github repos! | ).
   ENDMETHOD.
 
 ENDCLASS.
